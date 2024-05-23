@@ -183,6 +183,8 @@ p{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    display: flex;
+    flex-direction: column;
 }
 h3{
     text-align: center;

@@ -135,12 +135,14 @@ nav img{
 .row{
     margin: 5%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
 }
 .t1{
     margin: 5%;
     display: flex;
     justify-content: space-between;
+    /* flex-direction: row; */
 }
 .row{
     margin: 5%;
@@ -156,6 +158,7 @@ nav img{
     box-sizing: border-box;
     transition: 0.5s;
     height: 75dvh;
+    height: fit-content;
 }
 h3{
     text-align: center;
